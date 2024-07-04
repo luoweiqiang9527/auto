@@ -6,8 +6,8 @@ A collection of source code generators for [Java][java].
 
 ## Overview
 
-[Java][java] is full of code that is mechanical, repetitive, typically untested
-and sometimes the source of subtle bugs. _Sounds like a job for robots!_
+[Java][java] is full of code that is mechanical（机械）, repetitive（重复）, typically untested（通常没有经过测试）
+and sometimes the source of subtle bugs（微妙的缺陷）. _Sounds like a job for robots!_
 
 The Auto subprojects are a collection of code generators that automate those
 types of tasks. They create the code you would have written, but without
