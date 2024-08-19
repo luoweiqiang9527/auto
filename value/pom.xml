@@ -31,8 +31,8 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
-    <guava.version>33.2.1-jre</guava.version>
-    <truth.version>1.4.3</truth.version>
+    <guava.version>33.3.0-jre</guava.version>
+    <truth.version>1.4.4</truth.version>
   </properties>
 
   <scm>
@@ -228,7 +228,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
-            <version>3.7.0</version>
+            <version>3.8.0</version>
             <configuration>
               <failOnError>false</failOnError>
             </configuration>
@@ -244,7 +244,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
-            <version>3.2.4</version>
+            <version>3.2.5</version>
             <executions>
               <execution>
                 <id>sign-artifacts</id>
